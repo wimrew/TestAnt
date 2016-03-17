@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="TestAnt.makejar" default="makejar" basedir=".">
+  <target name ="makejar" description="Create a jar for the TestAnt project">
+    <jar jarfile="TestAnt.jar" includes="*.class" basedir="bin"/>
+  </target>
+</project>
